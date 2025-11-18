@@ -1,5 +1,8 @@
 name: Daily Commit
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 7 * * *"  # runs every day at 07:00 UTC
